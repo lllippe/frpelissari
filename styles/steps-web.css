@@ -1,0 +1,16 @@
+.steps-project {
+    
+    justify-items: center;
+    margin-bottom: 5vw;
+}
+
+.steps-project-title {
+    padding: 3vw;
+    font-family: var(--font-title);
+    font-size: 4vw;
+    font-weight: 200;
+}
+
+.steps-img {
+    width: 80vw;
+}

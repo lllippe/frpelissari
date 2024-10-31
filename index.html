@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Bem vindo a FRPelissari!</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-bar">
+            <a href="index.html" class="nav-bar-item border-wings-left">Home</a>
+            <a href="#portfolio" class="nav-bar-item margin-right-left">Portfolio</a>
+            <a href="#contact" class="nav-bar-item border-wings-right">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <section class="presentation">
+            <div class="presentation-left">
+                <div class="presentation-left-title">
+                    <h2>Bem vindo a</h2>
+                    <h1>FRPelissari</h1>    
+                </div>
+                <p class="presentation-paragraph">Olá, me chamo Felipe Pelissari e sou programador com experiência em Html, CSS, Flutter, Python, Django RestFramework e ADVPL.
+                    Procuro Designers e pequenos negócios para juntos desenvolvermos a solução certa para você!
+                    Entre em contato no formulário para saber como posso ajudar.</p>
+            </div>
+            <img class="presentation-image" src="assets/img/guy.png" alt="Felipe Codando">
+        </section>
+        <section class="steps-project">
+            <h2 class="steps-project-title">Etapas do seu projeto</h2>
+            <img class="steps-img" src="assets/img/Steps.png" alt="Fluxograma das etapas de um projeto web">
+        </section>
+        <section class="portfolio" id="portfolio">
+            <h2 class="portfolio-title">Portfolio</h2>
+            <p class="portfolio-paragraph">Confira abaixo algumas soluções criadas nas mais diversas situações, mobile, API, HTML/CSS e ADVPL.</p>
+            <div class="swiper">
+    
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a class="swiper-link" href="https://www.japher.com.br" target="_blank">
+                            <img class="img-card-swipper" src="assets/img/japher.jpg" alt="Demonstração site japher">
+                            <p class="swiper-paragraph">Site da Japher - Clique no Link para visualizar o site.</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a class="swiper-link" href="https://www.japher.com.br" target="_blank">
+                            <img class="img-card-swipper" src="assets/img/japher.jpg" alt="Demonstração site japher">
+                            <p class="swiper-paragraph">Site da Japher - Clique no Link para visualizar o site.</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a class="swiper-link" href="https://www.japher.com.br" target="_blank">
+                            <img class="img-card-swipper" src="assets/img/japher.jpg" alt="Demonstração site japher">
+                            <p class="swiper-paragraph">Site da Japher - Clique no Link para visualizar o site.</p>
+                        </a>
+                    </div>
+                </div>
+             
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <h2 class="contact-title">Contato</h2>
+            <div class="contact-grid">
+                <p class="contact-paragraph">Clique no link ao lado para que eu possa saber a necessidade da sua empresa e assim encontramos a solução ideal para você. Vamos colocar seu negócio online e expandir seus horizontes!</p>
+                <a class="link" href="#" target="_blank">
+                    <img class="link-img" src="assets/img/whatsapp.png" alt="Icone whatsapp">
+                    <p class="contact-link" >Vamos conversar!</p>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-left">
+            <p class="footer-paragraph">Redes Sociais:</p>
+            <div class="footer-icons">
+                <a href="#"><img src="assets/img/Instagram.svg" alt="Icone instagram"></a>
+                <a href="#"><img src="assets/img/Youtube.svg" alt="Icone youtube"></a>
+                <a href="#"><img src="assets/img/Github.svg" alt="Icone github"></a>
+            </div>
+        </div>
+        <p class="footer-style"><a class="footer-link" href="https://www.frpelissari.com" target="_blank">Desenvolvido por FRPelissari</a></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 1,
+            pagination : {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+</body>
+</html>

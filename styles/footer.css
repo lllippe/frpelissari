@@ -1,0 +1,38 @@
+.footer {
+    background-color: var(--cor-principal);
+    display: flex;
+    color: var(--black);
+    justify-content: center;
+    padding: 3vw;
+    gap: 5vw;
+}
+
+.footer-style {
+    
+    font-family: var(--font-title);
+    font-size: 1.5vw;
+    font-weight: 200;
+    padding-top: 2vw;
+}
+
+.footer-left {
+    align-items: center;
+}
+
+.footer-paragraph {
+    padding-left: 2vw;
+    font-size: 1.2vw;
+}
+
+.footer-icons {
+    display: flex;
+    gap: 1vw;
+    padding: 1vw 1vw 0 0;
+    align-items: center;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: var(--black);
+    font-size: 2vw;
+}

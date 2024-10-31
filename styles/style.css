@@ -1,0 +1,31 @@
+@import url("steps-web.css");
+@import url("header.css");
+@import url("presentation.css");
+@import url("portfolio.css");
+@import url("contact.css");
+@import url("footer.css");
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --cor-principal: #00BEC1;
+    --black: #000000;
+    --font-principal: "Prompt";
+    --font-title: "Permanent Marker"
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url("../assets/img/background.svg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: var(--font-principal);
+    color: var(--cor-principal);
+}
+
+.background {
+    background-color: #000000;
+}

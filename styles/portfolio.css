@@ -1,0 +1,53 @@
+.portfolio {
+    background-color: var(--black);
+    padding: 5vw 3vw;
+}
+
+.portfolio-title {
+    padding-top: 3vw;
+    padding-left: 35vw;
+    font-family: var(--font-title);
+    font-size: 4vw;
+    font-weight: 200;
+}
+
+.portfolio-paragraph {
+    font-size: 1.5vw;
+    padding: 5vw 0 5vw 10vw;
+    
+}
+
+.img-card-swipper {
+    width: 80%;
+    padding-left: 9vw;
+}
+
+.card-services {
+    border: solid 0.2vw var(--cor-principal);
+}
+
+.swiper-slide {
+    width: 100%;
+}
+
+.swiper-pagination {
+    position: initial;
+    margin: 0.5vw 0;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: var(--cor-principal);
+    fill: var(--cor-principal);
+    stroke: var(--cor-principal);
+}
+
+.swiper-link {
+    text-decoration: none;
+    color: var(--cor-principal);
+}
+
+.swiper-paragraph {
+    text-align: center;
+    font-size: 1.3vw;
+}

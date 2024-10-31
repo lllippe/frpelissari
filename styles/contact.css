@@ -1,0 +1,57 @@
+.contact {
+    background-color: var(--black);
+    justify-items: center;
+    padding-bottom: 7vw;
+}
+
+.contact-title {
+    padding: 3vw;
+    font-family: var(--font-title);
+    font-size: 4vw;
+    font-weight: 200;
+}
+
+.contact-grid {
+    display: flex;
+    justify-content: center;
+    padding: 0 25vw;
+    gap: 3vw;
+}
+
+.contact-paragraph, .form-text {
+    font-size: 1.5vw;
+    text-align: justify;
+}
+
+.contact-paragraph {
+    padding-top: 3vw;
+}
+
+.link {
+    display: flex;
+    text-align: center;
+    border: 0.2vw solid var(--cor-principal);
+    border-radius: 3vw;
+    height: 5vw;
+    padding: 0.5vw 5vw 1.5vw;
+    margin-top: 8vw;
+    gap: 1.5vw;
+    text-decoration: none;
+}
+
+.link-img {
+    height: 4vw;
+    padding-top: 1vw;
+}
+
+.contact-link {
+    text-align: center;
+    color: var(--cor-principal);
+    font-size: 2vw;
+    font-weight: 600;
+}
+
+.link:hover {
+    box-shadow: 0.5em 0.5em 0.2em 0.2em var(--cor-principal);
+    
+}
