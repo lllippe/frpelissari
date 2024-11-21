@@ -43,3 +43,36 @@
     padding-right: 25vw;
     padding-top: 2vw;
 }
+
+@media screen and (max-width: 780px) {
+    .presentation {
+        flex-direction: column;
+    }
+
+    .presentation-left-title {
+        width: 60vw;
+        font-size: 2.6vw;
+        padding-right: 0;
+    }
+
+    .presentation-left-title {
+        gap: 0;
+    }
+
+    .presentation-h2 {
+        text-align: center;
+        width: 28vw;
+    }
+
+    .presentation-paragraph {
+        font-size: 2.5vw;
+        margin-right: 20vw;
+    }
+
+    .presentation-image {
+        height: 50vw;
+        width: 40vw;
+        padding-right: 0;
+        padding-left: 30vw;
+    }
+}

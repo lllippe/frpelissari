@@ -14,7 +14,14 @@
 .portfolio-paragraph {
     font-size: 1.5vw;
     padding: 5vw 0 5vw 10vw;
-    
+}
+
+.portfolio-paragraph-it {
+    padding-left: 15vw;
+}
+
+.portfolio-paragraph-en {
+    padding-left: 13vw;
 }
 
 .img-card-swipper {
@@ -50,4 +57,22 @@
 .swiper-paragraph {
     text-align: center;
     font-size: 1.3vw;
+}
+
+@media screen and (max-width:780px) {
+    .portfolio-title {
+        font-size: 7vw;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .portfolio-paragraph {
+        font-size: 2vw;
+        text-align: center;
+        padding: 5vw 0 5vw 1vw;
+    }
+
+    .swiper-paragraph {
+        font-size: 2.5vw;
+    }
 }

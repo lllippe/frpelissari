@@ -1,5 +1,4 @@
 .steps-project {
-    
     justify-items: center;
     margin-bottom: 5vw;
 }
@@ -13,4 +12,28 @@
 
 .steps-img {
     width: 80vw;
+}
+
+.steps-img-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 780px) {
+    .steps-project-title {
+        font-size: 7vw;
+        padding-bottom: 7vw;
+    }
+
+    .steps-img {
+        display: none;
+    }
+
+    .steps-img-mobile {
+        display: flex;
+        width: 80vw;
+    }
+    
+    .steps-project-title-it {
+        font-size: 6vw;
+    }
 }

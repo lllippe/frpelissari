@@ -1,4 +1,6 @@
 .header {
+    display: flex;
+    justify-content: center;
     background-color: var(--black);
     justify-items: center;
     padding: 2.5vw;
@@ -7,6 +9,8 @@
 .nav-bar {
     display: flex;
     align-items: center;
+    padding-left: 13vw;
+    padding-right: 7vw;
 }
 
 .nav-bar-item {
@@ -16,6 +20,21 @@
     font-weight: 400;
     padding-left: 3vw;
     padding-right: 3vw;
+}
+
+.header-flag {
+    border: 0.2vw solid var(--cor-principal);    
+    border-radius: 5vw;
+}
+
+.header-img {
+    width: 3vw;
+    padding: 0.2vw 2vw 0 1vw;
+}
+
+.header-img-arrow {
+    width: 2vw;
+    padding-left: 1vw;
 }
 
 .margin-right-left {
@@ -44,4 +63,98 @@
     background-color: var(--cor-principal);
     color: var(--black);
     border-radius: 0 20px 20px 0;
+}
+
+.header-flag:hover {
+    box-shadow: 0.2em 0.2em 0.2em 0.2em var(--cor-principal);
+}
+
+.cabecalho__menu-hamburguer{
+    width: 5.5vw;
+    background-image: url("../assets/img/pt-arrow.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 5vw;
+    display: inline-block;
+    border: 0.2vw solid var(--cor-principal);
+    border-radius: 5vw;
+}
+
+.en {
+    background-image: url("../assets/img/en-arrow.png");
+}
+
+.it {
+    background-image: url("../assets/img/it-arrow.png");
+}
+
+.check-img {
+    width: 4vw;
+    padding-left: 1vw;
+}
+
+.cabecalho {
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    padding-left: 7vw;
+}
+
+.container__imagem {
+    padding: 0vw 2vw 3vw 0vw;
+}
+
+.lista-menu {
+    display: none;
+    position: absolute;
+    top: 6.5vw;
+    width: 8vw;
+    border: solid 0.2vw var(--cor-principal);
+    border-radius: 1vw;
+    box-shadow: 0.1vw 0.1vw 0.1vw 0.1vw var(--cor-principal);
+}
+
+.container__botao {
+    display: none;
+}
+
+.container__botao:checked ~ .lista-menu {
+    display: block;
+    list-style-type: none;
+}
+
+.lista-menu__item {
+    padding: 0.3vw 1vw;
+}
+
+.container__titulo {
+    display: none;
+}
+
+@media screen and (max-width:780px) {
+    .nav-bar {
+        padding-left: 7vw;
+    }
+
+    .nav-bar-item {
+        font-size: 3vw;
+    }
+
+    .cabecalho__menu-hamburguer{
+        width: 10vw;
+        height: 2vw;
+        background-size: 9vw;
+        border: 0.4vw solid var(--cor-principal);
+    }
+
+    .container {
+        padding-left: 2vw;
+    }
 }

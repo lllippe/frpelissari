@@ -39,6 +39,14 @@
     text-decoration: none;
 }
 
+.link-en {
+    margin-top: 6vw;
+}
+
+.link-it {
+    margin-top: 5vw;
+}
+
 .link-img {
     height: 4vw;
     padding-top: 1vw;
@@ -53,5 +61,59 @@
 
 .link:hover {
     box-shadow: 0.5em 0.5em 0.2em 0.2em var(--cor-principal);
-    
+}
+
+.contact-paragraph-mobile {
+    display: none;
+}
+
+.contact-link-en {
+    width: 10vw;
+    padding-top: 1.5vw;
+}
+
+.contact-link-it {
+    padding-top: 1.5vw;
+}
+
+@media screen and (max-width:780px) {
+    .contact-grid {
+        flex-direction: column;
+    }
+
+    .contact-title {
+        font-size: 7vw;
+    }
+
+    .contact-paragraph, .form-text {
+        font-size: 2vw;
+    }
+
+    .contact-link {
+        font-size: 3vw;
+        padding: 0.8vw 0 0 4vw;        
+    }
+
+    .contact-paragraph-mobile {
+        display: flex;
+        font-size: 2vw;
+        text-align: justify;
+    }
+
+    .contact-paragraph {
+        display: none;
+    }
+
+    .contact-link-en {
+        width: 20vw;
+        padding-top: 1vw;
+    }
+
+    .link-img-en {
+        padding-left: 5vw;
+    }
+
+    .link-img-it {
+        padding-left: 6vw;
+    }
 }

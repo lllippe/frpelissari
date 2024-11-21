@@ -29,3 +29,9 @@ body {
 .background {
     background-color: #000000;
 }
+
+@media screen and (max-width:780px) {
+    body {
+        background-size: cover;
+    }
+}

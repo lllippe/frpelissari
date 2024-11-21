@@ -36,3 +36,19 @@
     color: var(--black);
     font-size: 2vw;
 }
+
+@media screen and (max-width:780px) {
+    .footer-icons-image {
+        width: 5vw;
+    }
+
+    .footer-paragraph {
+        font-size: 3vw;
+        padding-left: 0;
+    }
+
+    .footer-link {
+        font-size: 3vw;
+        padding-left: 5vw;
+    }
+}
